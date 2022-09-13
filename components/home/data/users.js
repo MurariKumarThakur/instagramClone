@@ -1,0 +1,22 @@
+export const USERS=[
+    {
+        user:'Murari',
+        image:"https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+        user:'Mukesh',
+        image:"https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        user:'Bhushanddddddddddd',
+        image:"https://randomuser.me/api/portraits/men/60.jpg"
+    },
+    {
+        user:'RamAnek',
+        image:"https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+        user:'Rupesh',
+        image:"https://randomuser.me/api/portraits/men/75.jpg"
+    }
+]

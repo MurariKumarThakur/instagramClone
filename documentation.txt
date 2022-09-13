@@ -1,0 +1,57 @@
+++++++++++++++++++++++++++++++++++++++
+SafeAreaView 
+
+used to show screen within the viewport
+
+++++++++++++++++++++++++++++++++++++++
+Add image 
+
+  <Image style={styles.logo} source={require("../../assets/logo.png")}/>
+
+++++++++++++++++++++++++++++++++++++++
+
+TouchableOpacity effect 
+
+   <TouchableOpacity>
+    <Image style={styles.logo} source={require("../../assets/logo.png")}/>
+  </TouchableOpacity>
+
+++++++++++++++++++++++++++++++++++++++
+
+Create bedge 
+
+
+<View style={styles.unreadbedge}>
+        <Text style={styles.unreadbedgeImage} >11</Text>
+    </View>
+
+
+styling 
+
+    unreadbedge:{
+        backgroundColor:'red',
+        position:'absolute',
+        left:20,
+        bottom:28,
+        width:25,
+        height:18,
+        borderRadius:25,
+        alignItems:'center',
+        zIndex:100
+        
+       
+    },
+    unreadbedgeImage:{
+     color:'white',
+     fontWeight:'bold'
+    }
+
+    ++++++++++++++++++++++++++++++++++++++++++++
+
+      Text ellipses 
+
+      numberOfLines={1} ellipsizeMode={'tail'}
+
+        <Text numberOfLines={1} ellipsizeMode={'tail'} style={styles.userName}>{user.user}</Text>  
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++       
